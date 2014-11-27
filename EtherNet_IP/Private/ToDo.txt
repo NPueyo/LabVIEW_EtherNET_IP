@@ -1,0 +1,1 @@
+A lot of parts os Write and Read_Core are equal, in the future we might create Subvis with that parts to simplify the block diagram
