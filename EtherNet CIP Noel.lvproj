@@ -11,26 +11,12 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Polymorph Read Registers" Type="Folder" URL="../Polymorph Read Registers">
+		<Item Name="EtherNet_IP" Type="Folder" URL="../EtherNet_IP">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="Polymorph Write Registers" Type="Folder" URL="../Polymorph Write Registers">
-			<Property Name="NI.DISK" Type="Bool">true</Property>
-		</Item>
-		<Item Name="Library forked from" Type="Folder" URL="../Library forked from">
-			<Property Name="NI.DISK" Type="Bool">true</Property>
-		</Item>
-		<Item Name="Private" Type="Folder" URL="../Private">
-			<Property Name="NI.DISK" Type="Bool">true</Property>
-		</Item>
-		<Item Name="EtherNet CIP Terminate Connection.vi" Type="VI" URL="../EtherNet CIP Terminate Connection.vi"/>
-		<Item Name="EtherNet CIP Init Connection.vi" Type="VI" URL="../EtherNet CIP Init Connection.vi"/>
-		<Item Name="Poly_Write.vi" Type="VI" URL="../Poly_Write.vi"/>
-		<Item Name="Poly_Read.vi" Type="VI" URL="../Poly_Read.vi"/>
-		<Item Name="README.txt" Type="Document" URL="../README.txt"/>
-		<Item Name="Example.vi" Type="VI" URL="../Example.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
+				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 			</Item>
 		</Item>
