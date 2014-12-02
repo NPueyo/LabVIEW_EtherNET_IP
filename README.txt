@@ -8,11 +8,11 @@ Use these set of VIs to communicate with MicroLogix Series PLCs Via EtherNet.
 These VIs use simple TCP/IP Communication.
 
 Communication : Ethernet, TCP/IP
-Protocol : EtherNet/IP
-Service :CIP (For Connection Management), CIP Service for PCCC
-Command : PCCC
+Protocol :      EtherNet/IP
+Service :       CIP (For Connection Management), CIP Service for PCCC
+Command :       PCCC
 
-Tested with : MicroLogix 1100, MicroLogix 1500,1200(with NET-ENI)
+Tested with :   MicroLogix 1100, MicroLogix 1500,1200(with NET-ENI)
 
 No OPC Server Required
 No Automation Server Required
@@ -29,11 +29,11 @@ Use these set of VIs to communicate with CompactLogix, Control Logix Series PLCs
 These VIs uses simple TCP/IP Communication.
 
 Communication : Ethernet, TCP/IP
-Protocol : EtherNet/IP
-Service :CIP (For Connection Management, Read, Write)
-Command : CIP Commands
+Protocol :      EtherNet/IP
+Service :       CIP (For Connection Management, Read, Write)
+Command :       CIP Commands
 
-Tested with : Compact Logix Series PLCs
+Tested with :   Compact Logix Series PLCs
 
 No OPC Server Required
 No Automation Server Required
